@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.tags {
+  display: grid;
+  padding-right: 10px;
+  justify-content: end;
+  align-items: end;
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+}
+
+.issue-tags {
+  color: #7a7a7a;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.issue-tags:hover {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .issueOneLink {
+  color: #e30512;
+}
+
+.issueTwoLink {
+  color: #1d3fbb;
+}
+
+.issueThreeLink {
+  color: #ffbe00;
+}
+
+.issueFourLink {
+  color: #ff651a;
+}
+
+.issueFiveLink {
+  color: #00c1b5;
+}
+
+.issueSixLink {
+  color: white;
+} */
